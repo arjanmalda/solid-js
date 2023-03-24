@@ -1,12 +1,8 @@
-import { Component, createEffect, createSignal, For } from "solid-js";
-import { createStore } from "solid-js/store";
-import styles from "./App.module.css";
-import { getAllCharacters } from "../helpers/api";
-import { Character } from "../helpers/interfaces";
-import { LikedCharacters } from "./components/LikedCharacters";
 import { Route, Routes } from "@solidjs/router";
-import Home from "./Home";
+import { Component } from "solid-js";
+import styles from "./App.module.css";
 import Detail from "./Detail";
+import Home from "./Home";
 
 // all characters ophalen
 // Je kunt naar een single character toe
